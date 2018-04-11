@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="nostumato/local_manifests" path="repo/ocal_manifests" remote="github" revision="noso" />
+  <remove-project name="android_vendor_nitrogen" />
+  <remove-project name="android_build_make" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="android_system_media" />
+  <remove-project name="android_vendor_qcom_opensource_fm" />
+  <remove-project name="android_system_core" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="android_hardware_libhardware" />
+  <remove-project name="android_vendor_xiaomi_kenzo" />
+</manifest>
