@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="hardware/gzosp/interfaces" name="gzosp/hardware_gzosp_interfaces" remote="github" revision="8.1" >
+      <copyfile dest="hardware/gzosp/Android.bp" src="Android.bp"/>
+  </project>
+ 
+  <project path="build/make" name="nosz00l/android_build_make" remote="github" revision="o2" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project name="nosz00l/android_vendor_nitrogen" path="vendor/nitrogen" remote="github" revision="o2" />
+  <project name="GZOSP/hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" remote="github" revision="8.1-caf-8916" />
+  <project name="GZOSP/hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" remote="github" revision="8.1-caf-8916" />
+  <project name="GZOSP/hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="8.1" />
+  <project name="GZOSP/hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" remote="github" revision="8.1-caf-8916" />
+  <project name="GZOSP/hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="github" revision="8.1-caf" />
+  <project name="GZOSP/hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="8.1" />
+  <project name="GZOSP/hardware_qcom_power" path="hardware/qcom/power" remote="github" revision="8.1" />
+  <project name="nosz00l/android_system_media" path="system/media" remote="github" revision="o2" />
+  <project name="GZOSP/vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="github" revision="8.1" />
+  <project name="GZOSP/hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="o2" />
+  <project name="GZOSP/hardware_libhardware" path="hardware/libhardware" remote="github" revision="o2" />
+  <project name="nosz00l/android_system_core" path="system/core" remote="github" revision="o2" />
+  <project name="GZOSP/system_qcom" path="system/qcom" remote="github" revision="8.1" />
+  <project name="GZOSP/external_libncurses" path="external/libncurses" remote="github" revision="8.1" />
+  <project name="GZOSP/external_powertop" path="external/powertop" remote="github" revision="8.1" />
+  <project name="GZOSP/external_brctl" path="external/brctl" remote="github" revision="8.0" />
+  <project name="GZOSP/external_libnetfilter_conntrack" path="external/libnetfilter/conntrack" remote="github" revision="8.1" />
+  <project name="GZOSP/hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="github" revision="8.1-caf" />
+</manifest>
+
