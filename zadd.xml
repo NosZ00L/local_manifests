@@ -26,8 +26,8 @@
   <project name="nosz00l/android_system_vold" path="system/vold" remote="github" revision="o2" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="lineage-15.1" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-15.1" />
-  <project path="external/powertop" name="android_external_powertop" remote="github" revision="lineage-15.1" />
-  <project path="external/brctl" name="android_external_brctl" remote="github" revision="lineage-15.1" />
+  <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="lineage-15.1" />
+  <project path="external/brctl" name="LineageOS/android_external_brctl" remote="github" revision="lineage-15.1" />
   <project name="GZOSP/external_libnetfilter_conntrack" path="external/libnetfilter/conntrack" remote="github" revision="8.1" />
   <project path="hardware/qcom/wlan-caf" name="CypherOS/hardware_qcom_wlan" groups="qcom_wlan" revision="parfait-release-caf" remote="github" />
   <project path="hardware/ril-caf" name="CypherOS/hardware_ril" groups="pdk" revision="parfait-release-caf" remote="github" />
