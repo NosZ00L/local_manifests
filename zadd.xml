@@ -30,5 +30,6 @@
   <project name="GZOSP/external_brctl" path="external/brctl" remote="github" revision="8.0" />
   <project name="GZOSP/external_libnetfilter_conntrack" path="external/libnetfilter/conntrack" remote="github" revision="8.1" />
   <project name="GZOSP/hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="github" revision="8.1-caf" />
+  <project name="nosz00l/android_frameworks_av" path="frameworks/av" remote="github" revision="o2" />
 </manifest>
 
