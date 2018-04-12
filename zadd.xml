@@ -23,6 +23,7 @@
   <project name="GZOSP/hardware_qcom_power" path="hardware/qcom/power" remote="github" revision="8.1" />
   <project name="nosz00l/android_system_media" path="system/media" remote="github" revision="o2" />
   <project name="nosz00l/android_system_core" path="system/core" remote="github" revision="o2" />
+  <project name="nosz00l/android_system_vold" path="system/vold" remote="github" revision="o2" />
   <project name="GZOSP/system_qcom" path="system/qcom" remote="github" revision="8.1" />
   <project name="GZOSP/external_libncurses" path="external/libncurses" remote="github" revision="8.1" />
   <project name="GZOSP/external_powertop" path="external/powertop" remote="github" revision="8.1" />
