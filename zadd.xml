@@ -14,22 +14,24 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project name="nosz00l/android_vendor_nitrogen" path="vendor/nitrogen" remote="github" revision="o2" />
-  <project name="GZOSP/hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" remote="github" revision="8.1-caf-8916" />
-  <project name="GZOSP/hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" remote="github" revision="8.1-caf-8916" />
-  <project name="GZOSP/hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="8.1" />
-  <project name="GZOSP/hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" remote="github" revision="8.1-caf-8916" />
-  <project name="GZOSP/hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="github" revision="8.1-caf" />
-  <project name="GZOSP/hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="8.1" />
-  <project name="GZOSP/hardware_qcom_power" path="hardware/qcom/power" remote="github" revision="8.1" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1-caf-8916" />
+  <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="lineage-15.1-caf-8916" />
+  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom" remote="github" revision="lineage-15.1-caf" />
+  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" groups="qcom,pdk" remote="github" revision="lineage-15.1" />
   <project name="nosz00l/android_system_media" path="system/media" remote="github" revision="o2" />
   <project name="nosz00l/android_system_core" path="system/core" remote="github" revision="o2" />
   <project name="nosz00l/android_system_vold" path="system/vold" remote="github" revision="o2" />
-  <project name="GZOSP/system_qcom" path="system/qcom" remote="github" revision="8.1" />
-  <project name="GZOSP/external_libncurses" path="external/libncurses" remote="github" revision="8.1" />
-  <project name="GZOSP/external_powertop" path="external/powertop" remote="github" revision="8.1" />
-  <project name="GZOSP/external_brctl" path="external/brctl" remote="github" revision="8.0" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="lineage-15.1" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-15.1" />
+  <project path="external/powertop" name="android_external_powertop" remote="github" revision="lineage-15.1" />
+  <project path="external/brctl" name="android_external_brctl" remote="github" revision="lineage-15.1" />
   <project name="GZOSP/external_libnetfilter_conntrack" path="external/libnetfilter/conntrack" remote="github" revision="8.1" />
-  <project name="GZOSP/hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="github" revision="8.1-caf" />
+  <project path="hardware/qcom/wlan-caf" name="CypherOS/hardware_qcom_wlan" groups="qcom_wlan" revision="parfait-release-caf" remote="github" />
+  <project path="hardware/ril-caf" name="CypherOS/hardware_ril" groups="pdk" revision="parfait-release-caf" remote="github" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="lineage-15.1" />
   <project name="nosz00l/android_frameworks_av" path="frameworks/av" remote="github" revision="o2" />
 </manifest>
 
