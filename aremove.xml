@@ -6,6 +6,7 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="android_system_media" />
   <remove-project name="android_vendor_qcom_opensource_fm" />
   <remove-project name="android_system_core" />
