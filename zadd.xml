@@ -33,5 +33,6 @@
   <project path="hardware/ril-caf" name="CypherOS/hardware_ril" groups="pdk" revision="parfait-release-caf" remote="github" />
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="lineage-15.1" />
   <project name="nosz00l/android_frameworks_av" path="frameworks/av" remote="github" revision="o2" />
+  <project name="nosz00l/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="o2" />
 </manifest>
 
