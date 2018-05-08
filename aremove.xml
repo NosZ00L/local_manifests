@@ -12,4 +12,5 @@
   <remove-project name="android_system_core" />
   <remove-project name="android_system_vold" />
   <remove-project name="android_frameworks_av" />
+  <remove-project name="proprietary_vendor_xiaomi" />
 </manifest>
