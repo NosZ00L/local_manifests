@@ -12,5 +12,4 @@
   <remove-project name="android_system_core" />
   <remove-project name="android_system_vold" />
   <remove-project name="android_frameworks_av" />
-  <remove-project name="android_vendor_xiaomi_kenzo" />
 </manifest>
