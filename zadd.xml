@@ -38,6 +38,5 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="staging/lineage-15.1" />
   <project path="packages/apps/FMRadio" name="CypherOS/packages_apps_FMRadio" remote="github" />
   <project path="packages/apps/MusicX" name="CypherOS/packages_apps_MusicX" remote="github" />
-  <project path="packages/apps/Messaging" name="CypherOS/packages_apps_Messaging" groups="pdk-fs" remote="github" />
 </manifest>
 
