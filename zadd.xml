@@ -36,7 +36,7 @@
   <project name="nosz00l/android_frameworks_av" path="frameworks/av" remote="github" revision="o2" />
   <project name="nosz00l/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="o2" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/FMRadio" name="CypherOS/packages_apps_FMRadio" remote="github" />
-  <project path="packages/apps/MusicX" name="CypherOS/packages_apps_MusicX" remote="github" />
+  <project path="packages/apps/FMRadio" name="CypherOS/packages_apps_FMRadio" remote="github" revision="parfait-release" />
+  <project path="packages/apps/MusicX" name="CypherOS/packages_apps_MusicX" remote="github" revision="parfait-release" />
 </manifest>
 
