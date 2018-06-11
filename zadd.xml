@@ -29,8 +29,8 @@
   <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="lineage-15.1" />
   <project path="external/brctl" name="LineageOS/android_external_brctl" remote="github" revision="lineage-15.1" />
   <project name="GZOSP/external_libnetfilter_conntrack" path="external/libnetfilter/conntrack" remote="github" revision="8.1" />
-  <project path="hardware/qcom/wlan" name="CypherOS/hardware_qcom_wlan" groups="qcom_wlan" revision="parfait-release" remote="github" />
-  <project path="hardware/qcom/wlan-caf" name="CypherOS/hardware_qcom_wlan" groups="qcom_wlan" revision="parfait-release-caf" remote="github" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" revision="lineage-15.1" remote="github" />
+  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" revision="lineage-15.1-caf" remote="github" />
   <project path="hardware/ril-caf" name="CypherOS/hardware_ril" groups="pdk" revision="parfait-release-caf" remote="github" />
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="lineage-15.1" />
   <project name="nosz00l/android_frameworks_av" path="frameworks/av" remote="github" revision="o2" />
