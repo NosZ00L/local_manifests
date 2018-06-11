@@ -38,6 +38,5 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="staging/lineage-15.1" />
   <project path="packages/apps/FMRadio" name="GZOSP/packages_apps_FMRadio" remote="github" revision="8.1" />
   <project path="packages/apps/MusicX" name="CypherOS/packages_apps_MusicX" remote="github" revision="parfait-release" />
-  <project path="packages/apps/Messaging" name="CypherOS/packages_apps_Messaging" remote="github" revision="parfait-release" />
 </manifest>
 
