@@ -13,4 +13,5 @@
   <remove-project name="android_system_vold" />
   <remove-project name="android_frameworks_av" />
   <remove-project name="proprietary_vendor_xiaomi" />
+  <remove-project name="android_packages_apps_Launcher3" />
 </manifest>
