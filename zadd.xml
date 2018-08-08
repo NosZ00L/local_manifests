@@ -36,5 +36,6 @@
   <project name="nosz00l/android_frameworks_av" path="frameworks/av" remote="github" revision="o2" />
   <project name="LineageOS/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="lineage-15.1" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/Snap" name="AospExtended/android_packages_apps_Snap" remote="github" revision="android-8.1" />
+  <project path="packages/apps/Snap" name="AospExtended/android_packages_apps_Snap" remote="github" revision="8.1.x" />
+  <project path="packages/apps/Launcher3" name="pixeldustproject-o/android_packages_apps_Launcher3" remote="github" revision="o2" />
 </manifest>
